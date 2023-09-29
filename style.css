@@ -1,0 +1,137 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    background: #ffffff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    place-content: center;
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+    color: #000000;
+}
+
+.noteForm-container {
+    background-color: #ffffff;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: auto;
+}
+.noteForm-container > h2 {
+    display: flex;
+    place-content: center;
+    color: #000000;
+    margin: 0;
+}
+.noteForm {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 5rem;
+}
+.noteForm > input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.noteForm > textarea {
+    resize: none;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1rem;
+    max-height: 100px;
+    font-family: 'Montserrat', sans-serif';
+}
+.noteForm > button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.noteForm > button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.note-container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}  
+.note {
+    height: auto;
+    width: 250px;
+    padding: 1.5rem 1rem;
+    margin: 0.5rem;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}  
+    
+.note > h2 {
+    margin: 0;
+    padding: 1 0rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+  
+.note > h5 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    overflow: hidden;
+}
+
+.note > .info {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.note > p {
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+.info > button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    transition: all 0.2s ease-in-out;
+}
+
+.info > button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}

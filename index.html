@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Live Code</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link rel="shortcut icon" href="notes.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Notes</h1>
+        <div class="note-container">
+        </div>
+        <div class="noteForm-container">
+            <h2>Create a new Note</h2>
+            <form id="noteForm" class="noteForm">
+                <input 
+                    type="text"
+                    placeholder="Title"
+                    id="titleInput"
+                />
+                <textarea
+                    rows="4" cols="50"
+                    placeholder="Content"
+                    id="contentInput"
+                ></textarea>
+                <button type="submit">
+                    Create note
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
